@@ -6,6 +6,7 @@ body, html
 .billboard
 {
     text-align: center;
+    color: #fff;
     font-family: 'Cinzel';
     padding-top: 3%;
     padding-bottom: 3%;
