@@ -1,27 +1,83 @@
 body {
-  background: #a0a0a0;
+  background: #fff;
   font-family: arial; }
 
+.spinner {
+  background-color: #ff0000;
+  height: 180px;
+  text-indent: 180px; }
+
 .billboard {
-  background-color: #fff; }
-  .billboard h1 {
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 1098px;
+  height: 648px; }
+  .billboard .icons {
     display: inline-block;
-    text-align: center;
+    margin-top: 288px; }
+    .billboard .icons i {
+      color: #fff;
+      margin-left: 10px;
+      margin-right: 10px; }
+      .billboard .icons i:hover {
+        color: #ff0000; }
+
+.spin {
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out; }
+@-webkit-keyframes sk-rotateplane {
+  0% {
+    -webkit-transform: perspective(4000px) rotateX(0deg); }
+  100% {
+    -webkit-transform: perspective(4000px) rotateX(180deg); } }
+@keyframes sk-rotateplane {
+  0% {
+    transform: perspective(4000px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(4000px) rotateX(0deg) rotateY(0deg); }
+  100% {
+    transform: perspective(4000px) rotateX(0deg) rotateY(180.1deg);
+    -webkit-transform: perspective(4000px) rotateX(0deg) rotateY(180.1deg); } }
+.firstL {
+  display: inline-block;
+  background-color: #ff0000;
+  border-radius: 38px;
+  height: 75px;
+  width: 75px;
+  margin-left: 10px;
+  margin-right: 10px; }
+  .firstL:hover {
+    background-color: #0000ff; }
+  .firstL h1 {
+    color: #000;
+    font-size: 4em;
+    display: inline-block;
     margin: 0px; }
-  .billboard .firstL {
-    background-color: #00ff00;
-    border-radius: 100px;
+
+.secondL {
+  display: inline-block;
+  background-color: #f0ff00;
+  border-radius: 38px;
+  height: 75px;
+  width: 75px;
+  margin-left: 10px;
+  margin-right: 10px; }
+  .secondL:hover {
+    background-color: #00ff00; }
+  .secondL h1 {
+    color: #000;
+    font-size: 4em;
     display: inline-block;
-    height: 100px; }
-  .billboard .secondL {
-    background-color: #0000ff;
-    border-radius: 100px;
-    display: inline-block;
-    height: auto; }
+    margin: 0px; }
 
 .back {
   font-family: arial;
-  background-color: #0000ff;
+  background-color: #f0ff00;
   color: #fff;
   border-radius: 100px;
   width: 100px;
