@@ -32,6 +32,7 @@ body {
   .cardInfo p {
     margin-left: 40px;
     text-transform: lowercase;
+    text-align: left;
     font-size: 1em; }
   .cardInfo .myInfo {
     float: left;
