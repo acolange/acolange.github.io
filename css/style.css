@@ -2,10 +2,58 @@ body {
   background: #fff;
   font-family: arial; }
 
-.spinner {
-  background-color: #ff0000;
-  height: 180px;
-  text-indent: 180px; }
+.cardInfo {
+  color: #fff;
+  display: none;
+  font-family: monospace;
+  position: relative;
+  margin: 0px;
+  margin-top: 0px;
+  height: 648px; }
+  .cardInfo a {
+    text-decoration: none;
+    color: #fff; }
+  .cardInfo h2 {
+    color: #27b6bf;
+    font-family: 'Press Start 2p';
+    text-transform: uppercase;
+    margin-top: 75px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 2em; }
+  .cardInfo h5 {
+    margin-left: 40px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: lighter;
+    font-family: monospace;
+    text-transform: uppercase; }
+  .cardInfo p {
+    margin-left: 40px;
+    text-transform: lowercase;
+    font-size: 1em; }
+  .cardInfo .myInfo {
+    float: left;
+    left: 40px;
+    display: inline;
+    width: 75%; }
+  .cardInfo .social {
+    width: 70px;
+    float: right;
+    margin-top: 164px;
+    margin-right: 20px;
+    right: 5px;
+    display: inline;
+    bottom: 105px;
+    text-align: center; }
+    .cardInfo .social i {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .cardInfo .social i:hover {
+        color: #000;
+        text-shadow: 0px 0px 18px #27b6bf; }
 
 .billboard {
   background-color: #000;
@@ -18,6 +66,10 @@ body {
   text-align: center;
   width: 1098px;
   height: 648px; }
+  .billboard:hover {
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); }
   .billboard .icons {
     display: inline-block;
     margin-top: 288px; }
@@ -27,64 +79,35 @@ body {
       margin-right: 10px; }
       .billboard .icons i:hover {
         color: #ff0000; }
-
-.spin {
-  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-  animation: sk-rotateplane 1.2s infinite ease-in-out; }
-@-webkit-keyframes sk-rotateplane {
-  0% {
-    -webkit-transform: perspective(4000px) rotateX(0deg); }
-  100% {
-    -webkit-transform: perspective(4000px) rotateX(180deg); } }
-@keyframes sk-rotateplane {
-  0% {
-    transform: perspective(4000px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(4000px) rotateX(0deg) rotateY(0deg); }
-  100% {
-    transform: perspective(4000px) rotateX(0deg) rotateY(180.1deg);
-    -webkit-transform: perspective(4000px) rotateX(0deg) rotateY(180.1deg); } }
-.firstL {
-  display: inline-block;
-  background-color: #ff0000;
-  border-radius: 38px;
-  height: 75px;
-  width: 75px;
-  margin-left: 10px;
-  margin-right: 10px; }
-  .firstL:hover {
-    background-color: #0000ff; }
-  .firstL h1 {
-    color: #000;
-    font-size: 4em;
+  .billboard .firstL {
     display: inline-block;
-    margin: 0px; }
-
-.secondL {
-  display: inline-block;
-  background-color: #00ff00;
-  border-radius: 38px;
-  height: 75px;
-  width: 75px;
-  margin-left: 10px;
-  margin-right: 10px; }
-  .secondL:hover {
-    background-color: #f0ff00; }
-  .secondL h1 {
-    color: #000;
-    font-size: 4em;
+    background-color: #ff0000;
+    border-radius: 38px;
+    height: 75px;
+    width: 75px;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .billboard .firstL:hover {
+      background-color: #0000ff; }
+    .billboard .firstL h1 {
+      color: #000;
+      font-size: 4em;
+      display: inline-block;
+      margin: 0px; }
+  .billboard .secondL {
     display: inline-block;
-    margin: 0px; }
-
-.back {
-  font-family: arial;
-  background-color: #f0ff00;
-  color: #fff;
-  border-radius: 100px;
-  width: 100px;
-  height: 100px; }
-  .back h1 {
-    font-size: 80px;
-    margin: 0px;
-    text-align: center; }
+    background-color: #00ff00;
+    border-radius: 38px;
+    height: 75px;
+    width: 75px;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .billboard .secondL:hover {
+      background-color: #f0ff00; }
+    .billboard .secondL h1 {
+      color: #000;
+      font-size: 4em;
+      display: inline-block;
+      margin: 0px; }
 
 /*# sourceMappingURL=style.css.map */
