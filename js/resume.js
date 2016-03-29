@@ -5,7 +5,4 @@ $(document).ready( function() {
         $('.cardInfo').show();
       });
     });
-    $('.cardInfo').click( function() {
-      $('.billboard').animate({height: '1098px'}, 1000);
-    });
 });
