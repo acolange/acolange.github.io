@@ -1,2 +1,7 @@
-.meteor/local
-.meteor/meteorite
+
+node_modules/
+typings/
+.vscode/
+*.log
+*.log.*
+dist
